@@ -1,5 +1,7 @@
 # Wide Mode (Chromium extension)
 
+![Before and after on a demo page](docs/screenshot.png)
+
 One click makes a narrow web page use your full screen width. Fixed max-width containers are widened, scroll boxes are expanded, and if columns still do not fit, the page is scaled down just enough (never below 40 %) so nothing scrolls sideways. **Table and column widths stay as the site defines them**, so columns do not stretch.
 
 Works in Brave, Chrome, Edge and other Chromium browsers (Manifest V3). Applies to the current tab only: click again or reload to go back. The badge shows "ON" when active, "!" means the page is blocked for extensions (e.g. `brave://` pages).
